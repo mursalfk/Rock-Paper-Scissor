@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="39px" viewBox="0 0 26 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Player-1-screen" transform="translate(-252.000000, -540.000000)" stroke="#3B3A36" stroke-width="0.855" fill="#3B3A36">
+            <g id="Group-1" transform="translate(252.000000, 440.000000)">
+                <g id="Page-1-Copy" transform="translate(13.000000, 119.500000) rotate(180.000000) translate(-13.000000, -119.500000) translate(0.000000, 100.000000)">
+                    <path d="M13.0031929,6.93334785 C12.8808156,6.93225516 12.7633157,6.99289934 12.678627,7.10271448 L-5.94400553,31.1418494 C-6.11293942,31.3598407 -6.10673187,31.7056764 -5.92937347,31.9143798 C-5.75201506,32.1219905 -5.47178878,32.1143417 -5.3024115,31.8958041 L12.9996457,8.2707979 L31.3012596,31.8958041 C31.4697501,32.1154344 31.7508632,32.1241759 31.9282216,31.9171115 C32.1060234,31.7095008 32.1135611,31.3631187 31.9450706,31.1440348 L31.9428536,31.1418494 L13.3202211,7.10271448 C13.237306,6.99563106 13.1233532,6.93444053 13.0031929,6.93334785" id="Fill-1" transform="translate(13.000000, 19.500000) rotate(90.000000) translate(-13.000000, -19.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

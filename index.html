@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors x99</title>
+
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Bungee|Montserrat:200,300" rel="stylesheet">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <!-- Logo -->
+
+  <div id="logo"><img src="./img/logo.svg"></div>
+
+  <!-- Game Start Screen -->
+
+  <div id="game-start">
+    <h2>Who are you playing against?</h2>
+    <div class="player-select">
+      <span class="button human">Human vs Human</span>
+      <span class="button computer">Computer Player</span>
+    </div>
+  </div>
+
+  <!-- Move Selection Screen -->
+
+  <div id="move-selection">
+    <h2>Player 1 Selection</h2>
+    <div class="remaining-strength">
+      <span class="title">TOTAL REMAINING STRENGTH POINTS</span>
+      <span id="remaining-strength" class="points">99</span>
+    </div>
+
+    <div class="moves">
+      <div class="move">
+        <h3>Move 1</h3>
+        <div class="type-selection">
+          <img class="left" src="./img/left.svg">
+          <div data-type="rock" id="move-one-type" class="type">
+            <img class="icon" src="./img/rock.svg">
+            <span class="name">rock</span>
+          </div>
+          <img class="right" src="./img/right.svg">
+        </div>
+        <div class="strength">
+          <h4>STRENGTH:</h4>
+          <input value="0" id="move-one-value" class="value" type="number" />
+        </div>
+      </div>
+      <div class="move">
+        <h3>Move 2</h3>
+        <div class="type-selection">
+          <img class="left" src="./img/left.svg">
+          <div data-type="paper" id="move-two-type" class="type">
+            <img class="icon" src="./img/paper.svg">
+            <span class="name">paper</span>
+          </div>
+          <img class="right" src="./img/right.svg">
+        </div>
+        <div class="strength">
+          <h4>STRENGTH:</h4>
+          <input value="0" id="move-two-value" class="value" type="number" />
+        </div>
+      </div>
+      <div class="move">
+        <h3>Move 3</h3>
+        <div class="type-selection">
+          <img class="left" src="./img/left.svg">
+          <div data-type="scissors" id="move-three-type" class="type">
+            <img class="icon" src="./img/scissors.svg">
+            <span class="name">scissors</span>
+          </div>
+          <img class="right" src="./img/right.svg">
+        </div>
+        <div class="strength">
+          <h4>STRENGTH:</h4>
+          <input value="0" id="move-three-value" class="value" type="number" />
+        </div>
+      </div>
+    </div>
+    <div class="move-finalize">
+      <span class="button">FINALIZE MOVES</span>
+    </div>
+  </div>
+
+  <!-- Round Screen -->
+
+  <div id="round">
+    <h2>Round 1</h2>
+    <div class="moves">
+      <div class="player-one move">
+        <h3>Player 1 Move</h3>
+        <div class="type">
+          <img class="icon" src="./img/rock.svg">
+          <span class="name">Rock</span>
+        </div>
+        <span class="attack">70 Attack Points</span>
+      </div>
+      <div class="player-two move">
+        <h3>Player 2 Move</h3>
+        <div class="type">
+          <img class="icon" src="./img/rock.svg">
+          <span class="name">Rock</span>
+        </div>
+        <span class="attack">70 Attack Points</span>
+      </div>
+    </div>
+    <div class="winner">
+      <span class="text">PLAYER 1 WINS!</span>
+    </div>
+  </div>
+
+  <!-- Winner Screen -->
+
+  <div id="winner">
+    <img class="stars" src="./img/stars.svg">
+    <img class="desktop" src="./img/banner.svg">
+    <img class="mobile" src="./img/mobile_banner.svg">
+    <h2>PLAYER 1 IS THE WINNER!</h2>
+    <h3>Do you want to play again?</h3>
+    <div class="player-select replay">
+      <span class="button human">Human vs Human</span>
+      <span class="button computer">Computer Player</span>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="./js/game-logic.js"></script>
+  <script type="text/javascript" src="./js/view-logic.js"></script>
+
+</body>
+</html>
